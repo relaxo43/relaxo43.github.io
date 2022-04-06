@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">  
+
+         <a href = "index.html"> <img src ="logo.jpg" class="bd-placeholder-img rounded-circle"width= "45px" height= "45px" alt="Casa"></a>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href= "pagina2bootstrap.html">Chi siamo</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="pagina3boot.html">Contattaci</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+        
+     
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<main>
+
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img src= "bluesky.jpg" class="img-fluid" alt="Casa"> </svg>
+
+
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Relaxo</h1>
+            <p>La piattaforma per il tuo benessere mentale</p>
+            <p><a class="btn btn-lg btn-primary" href="#vai in basso">Scopri di più</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+          <img src= "jungle.jpg" class="img-fluid" alt="Casa"> </svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Le terapie naturali</h1>
+            <p>Socopri tutte le terapie a base naturale.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="galleria.html">Guarda la galleria</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img src= "sfondo2.jpg" class="img-fluid" alt="Casa"> </svg>
+        
+
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Iscriviti alla Newsletter</h1>
+            <p>registrati per rimanere aggiornato sulle nostre attività.</p>
+            <p><a class="btn btn-lg btn-primary" href="iscriviti.html">Iscriviti</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src= "psico2.png" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" >  
+         <title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+
+        <h2>Psicologia Online</h2>
+        <p>Suporto psicologico e consulenza a distanza: un servizio rivolto a tutti coloro che hanno difficoltà a recarsi in studio. </p>
+        <p>
+          <a class="btn btn-secondary" href="psicologiaonline.html">Vedi dettagli &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src= "disturbi2.png" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" >  
+         <title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+
+
+        <h2>Disturbi Trattati</h2>
+        <p>Quando si inizia un percorso terapeutico è molto importante affidarsi a degli specilisiti che sappiano indicare il giusto percorso da intraprendere.</p>
+        <p><a class="btn btn-secondary" href="Disturbi.html">Vedi dettagli &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+       <img src= "meditazione.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" >  
+         <title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+
+
+        <h2>Le Nostre Attività</h2>
+        <p>Scopri tutti i nostri corsi online e scegli quello più adatto al benessere della tua mente.</p>
+        <p><a class="btn btn-secondary" href="meditazione.html">vedi dettagli&raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+
+    <div id= "vai in basso">
+     </div>
+
+     
+    <hr class="featurette-divider">
+
+
+
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Biblioteca dell'anima. 
+          <span class="text-muted">Gestisci i tuoi pensieri.</span></h2>
+        <p class="lead">In questo elenco trovi alcuni dei nostri consigli su dei testi pertinenti ad un percorso di conoscenza e introspezione.</p>
+      </div>
+      <div class="col-md-5">
+        <a href="biblioteca.html"><img src= "biblio.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></a>
+
+             
+
+          <title> Biblioteca </title>
+
+          <rect width="100%" height="100%" fill="#eee"/>
+
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Psicoterapia <span class="text-muted">Prenditi cura di te stesso.</span></h2>
+        <p class="lead">Un percorso di psicoterapia può essere intrapreso in qualsiasi momento e non serve per forza credere di avere grandi problemi, a volte anche le piccolezze possono destabilizzare le nostre esperienze quotidiane e il nostro approccio alla vita.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+         
+
+          <a href="psicoterapia2.html"><img src= "bella.webp" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"> </a>
+
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Il nostro Team<span class="text-muted"> Chi sta  dietro tutto questo</span></h2>
+        <p class="lead">Il gruppo di psicologi che conoscerete qui è un team altamente specializzato in diversi ambiti della psicologia e della psicoterapia. Clicca l'immagine per saperne di più.</p>
+      </div>
+      <div class="col-md-5">
+           <a href="team.html"> <img src= "team2.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
+            <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+
+ 
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Torna su</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="privacy.html">Privacy</a> </p>
+  </footer>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
